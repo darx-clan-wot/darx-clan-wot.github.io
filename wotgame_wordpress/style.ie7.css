@@ -1,0 +1,122 @@
+/* Created by Artisteer v4.3.0.60745 */
+
+.wotgame-header, #wotgame-header-bg, .wotgame-layout-cell, .wotgame-layout-wrapper, .wotgame-footer, .wotgame-nav, #wotgame-hmenu-bg, .wotgame-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.wotgame-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.wotgame-hmenu>li, .wotgame-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.wotgame-hmenu, ul.wotgame-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#wotgame-hmenu-bg 
+{
+   display: none;
+}
+
+ul.wotgame-hmenu>li:first-child {
+   padding-right:15px;
+}
+
+ul.wotgame-hmenu ul{
+   background-color: rgba(33, 33, 33, 0.93) !important;
+}
+
+.wotgame-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#wotgame-header-bg 
+{
+   display: none;
+}
+
+.wotgame-content-layout, .wotgame-content-layout-row, .wotgame-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.wotgame-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.wotgame-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.wotgame-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.wotgame-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.wotgame-search
+{
+   zoom: 1;
+}
+ul.wotgame-vmenu, ul.wotgame-vmenu ul, ul.wotgame-vmenu li{
+   zoom: 1;
+}
+
+ul.wotgame-vmenu ul 
+{
+}
+
+.wotgame-postheadericons span{
+   zoom: 1;
+}
+.wotgame-postcontent {
+   height: 1%;
+}
+
+.wotgame-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.wotgame-sidebar1 
+{
+   width: auto;
+   float:none;
+}
+

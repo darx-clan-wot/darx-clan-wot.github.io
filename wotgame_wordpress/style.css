@@ -1,0 +1,3418 @@
+/*
+Theme Name: WoTGame
+Theme URI: http://15Tem.ru
+Description: Theme created on the latest technology in web building html5 and css3 and is made especially for the fans of the world-popular game World of Tanks.
+Version: 10.0.1
+Author: 15Tem.ru
+Author URI: http://15Tem.ru
+Tags: adaptive, css3, fixed-width, game, template, theme, valid HTML5, website, widgets, wordpress, world of tanks
+*/
+
+/* Created by Artisteer v4.3.0.60745 */
+
+#wotgame-main
+{
+   background: #000000 url('images/page.png') scroll;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.wotgame-hmenu
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.wotgame-button
+{
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #242424;
+   background: rgba(36, 36, 36, 0.9);
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   border:1px double rgba(23, 23, 23, 0.6);
+   padding:0 20px;
+   margin:0 auto;
+   height:28px;
+}
+
+.wotgame-postcontent,
+.wotgame-postheadericons,
+.wotgame-postfootericons,
+.wotgame-blockcontent,
+ul.wotgame-vmenu a 
+{
+   text-align: left;
+}
+
+.wotgame-postcontent,
+.wotgame-postcontent li,
+.wotgame-postcontent table,
+.wotgame-postcontent a,
+.wotgame-postcontent a:link,
+.wotgame-postcontent a:visited,
+.wotgame-postcontent a.visited,
+.wotgame-postcontent a:hover,
+.wotgame-postcontent a.hovered
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: justify;
+   text-indent: 0;
+   line-height: 125%;
+}
+
+.wotgame-postcontent p
+{
+   margin: 13px 5px;
+}
+
+.wotgame-postcontent h1, .wotgame-postcontent h1 a, .wotgame-postcontent h1 a:link, .wotgame-postcontent h1 a:visited, .wotgame-postcontent h1 a:hover,
+.wotgame-postcontent h2, .wotgame-postcontent h2 a, .wotgame-postcontent h2 a:link, .wotgame-postcontent h2 a:visited, .wotgame-postcontent h2 a:hover,
+.wotgame-postcontent h3, .wotgame-postcontent h3 a, .wotgame-postcontent h3 a:link, .wotgame-postcontent h3 a:visited, .wotgame-postcontent h3 a:hover,
+.wotgame-postcontent h4, .wotgame-postcontent h4 a, .wotgame-postcontent h4 a:link, .wotgame-postcontent h4 a:visited, .wotgame-postcontent h4 a:hover,
+.wotgame-postcontent h5, .wotgame-postcontent h5 a, .wotgame-postcontent h5 a:link, .wotgame-postcontent h5 a:visited, .wotgame-postcontent h5 a:hover,
+.wotgame-postcontent h6, .wotgame-postcontent h6 a, .wotgame-postcontent h6 a:link, .wotgame-postcontent h6 a:visited, .wotgame-postcontent h6 a:hover,
+.wotgame-blockheader .t, .wotgame-blockheader .t a, .wotgame-blockheader .t a:link, .wotgame-blockheader .t a:visited, .wotgame-blockheader .t a:hover,
+.wotgame-vmenublockheader .t, .wotgame-vmenublockheader .t a, .wotgame-vmenublockheader .t a:link, .wotgame-vmenublockheader .t a:visited, .wotgame-vmenublockheader .t a:hover,
+.wotgame-headline, .wotgame-headline a, .wotgame-headline a:link, .wotgame-headline a:visited, .wotgame-headline a:hover,
+.wotgame-slogan, .wotgame-slogan a, .wotgame-slogan a:link, .wotgame-slogan a:visited, .wotgame-slogan a:hover,
+.wotgame-postheader, .wotgame-postheader a, .wotgame-postheader a:link, .wotgame-postheader a:visited, .wotgame-postheader a:hover
+{
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.wotgame-postcontent a, .wotgame-postcontent a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F25322;
+}
+
+.wotgame-postcontent a:visited, .wotgame-postcontent a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F25322;
+}
+
+.wotgame-postcontent  a:hover, .wotgame-postcontent a.hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #FA6419;
+}
+
+.wotgame-postcontent h1
+{
+   color: #FFFFFF;
+   margin: 10px 0 0;
+   font-size: 26px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-blockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 26px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h1 a, .wotgame-postcontent h1 a:link, .wotgame-postcontent h1 a:hover, .wotgame-postcontent h1 a:visited, .wotgame-blockcontent h1 a, .wotgame-blockcontent h1 a:link, .wotgame-blockcontent h1 a:hover, .wotgame-blockcontent h1 a:visited 
+{
+   font-size: 26px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h2
+{
+   color: #A3A3A3;
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-blockcontent h2
+{
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h2 a, .wotgame-postcontent h2 a:link, .wotgame-postcontent h2 a:hover, .wotgame-postcontent h2 a:visited, .wotgame-blockcontent h2 a, .wotgame-blockcontent h2 a:link, .wotgame-blockcontent h2 a:hover, .wotgame-blockcontent h2 a:visited 
+{
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h3
+{
+   color: #707070;
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-blockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h3 a, .wotgame-postcontent h3 a:link, .wotgame-postcontent h3 a:hover, .wotgame-postcontent h3 a:visited, .wotgame-blockcontent h3 a, .wotgame-blockcontent h3 a:link, .wotgame-blockcontent h3 a:hover, .wotgame-blockcontent h3 a:visited 
+{
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h4
+{
+   color: #666666;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-blockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h4 a, .wotgame-postcontent h4 a:link, .wotgame-postcontent h4 a:hover, .wotgame-postcontent h4 a:visited, .wotgame-blockcontent h4 a, .wotgame-blockcontent h4 a:link, .wotgame-blockcontent h4 a:hover, .wotgame-blockcontent h4 a:visited 
+{
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h5
+{
+   color: #545454;
+   margin: 10px 0 0;
+   font-size: 15px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-blockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 15px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h5 a, .wotgame-postcontent h5 a:link, .wotgame-postcontent h5 a:hover, .wotgame-postcontent h5 a:visited, .wotgame-blockcontent h5 a, .wotgame-blockcontent h5 a:link, .wotgame-blockcontent h5 a:hover, .wotgame-blockcontent h5 a:visited 
+{
+   font-size: 15px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h6
+{
+   color: #525252;
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-blockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-postcontent h6 a, .wotgame-postcontent h6 a:link, .wotgame-postcontent h6 a:hover, .wotgame-postcontent h6 a:visited, .wotgame-blockcontent h6 a, .wotgame-blockcontent h6 a:link, .wotgame-blockcontent h6 a:hover, .wotgame-blockcontent h6 a:visited 
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+header, footer, article, nav, #wotgame-hmenu-bg, .wotgame-sheet, .wotgame-hmenu a, .wotgame-vmenu a, .wotgame-slidenavigator > a, .wotgame-checkbox:before, .wotgame-radiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #wotgame-hmenu-bg, .wotgame-sheet, .wotgame-slidenavigator > a, .wotgame-checkbox:before, .wotgame-radiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+/**
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * https://github.com/necolas/normalize.css
+ */
+
+html {
+   -ms-text-size-adjust: 100%;
+   /* 2 */
+    -webkit-text-size-adjust: 100%;
+/* 2 */}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 1100px;
+   color: #979899;
+}
+
+.wotgame-header:before, 
+#wotgame-header-bg:before, 
+.wotgame-layout-cell:before, 
+.wotgame-layout-wrapper:before, 
+.wotgame-footer:before, 
+.wotgame-nav:before, 
+#wotgame-hmenu-bg:before, 
+.wotgame-sheet:before 
+{
+   width: 100%;
+   content: " ";
+   display: table;
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.wotgame-header:after, 
+#wotgame-header-bg:after, 
+.wotgame-layout-cell:after, 
+.wotgame-layout-wrapper:after, 
+.wotgame-footer:after, 
+.wotgame-nav:after, 
+#wotgame-hmenu-bg:after, 
+.wotgame-sheet:after,
+.cleared, .clearfix:after 
+{
+   clear: both;
+   font: 0/0 serif;
+   display: block;
+   content: " ";
+}
+
+form
+{
+   padding: 0;
+   margin: 0;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .wotgame-postcontent li h1, .wotgame-blockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .wotgame-postcontent li h2, .wotgame-blockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .wotgame-postcontent li h3, .wotgame-blockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .wotgame-postcontent li h4, .wotgame-blockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .wotgame-postcontent li h5, .wotgame-blockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .wotgame-postcontent li h6, .wotgame-blockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .wotgame-postcontent li p, .wotgame-blockcontent li p 
+{
+   margin:1px;
+}
+
+
+.wotgame-shapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.wotgame-slider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.wotgame-slidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.wotgame-slidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+.wotgame-logo-1554518895
+{  
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  margin-left: -200px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+      z-index: 102;
+  width: 400px;
+  height: 149px;
+}.wotgame-object227400126 h1, 
+.wotgame-object227400126 h2, 
+.wotgame-object227400126 h3, 
+.wotgame-object227400126 h4, 
+.wotgame-object227400126 h5, 
+.wotgame-object227400126 h6, 
+.wotgame-object227400126 p, 
+.wotgame-object227400126 a, 
+.wotgame-object227400126 ul, 
+.wotgame-object227400126 ol, 
+.wotgame-object227400126 li
+{
+  line-height: 31px;
+}
+
+.wotgame-object227400126
+{  
+  position: absolute;
+  top: 23px;
+  left: 6.44%;
+  margin-left: -12px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+      z-index: 101;
+  width: 200px;
+  height: 31px;
+}
+
+.default-responsive .wotgame-object227400126
+{
+  }
+
+
+
+
+
+
+
+.wotgame-nav
+{
+   background: #474747 url('images/nav.png') scroll;
+   background: -webkit-linear-gradient(top, rgba(133, 133, 133, 0.09) 0, rgba(10, 10, 10, 0.05) 100%) no-repeat, url('images/nav.png'), -webkit-linear-gradient(top, rgba(112, 112, 112, 0.25) 0, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(133, 133, 133, 0.09) 0, rgba(10, 10, 10, 0.05) 100%) no-repeat, url('images/nav.png'), -moz-linear-gradient(top, rgba(112, 112, 112, 0.25) 0, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(133, 133, 133, 0.09) 0, rgba(10, 10, 10, 0.05) 100%) no-repeat, url('images/nav.png'), -o-linear-gradient(top, rgba(112, 112, 112, 0.25) 0, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(133, 133, 133, 0.09) 0, rgba(10, 10, 10, 0.05) 100%) no-repeat, url('images/nav.png'), -ms-linear-gradient(top, rgba(112, 112, 112, 0.25) 0, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(133, 133, 133, 0.09) 0, rgba(10, 10, 10, 0.05) 100%) no-repeat, url('images/nav.png'), linear-gradient(top, rgba(112, 112, 112, 0.25) 0, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: linear-gradient(to bottom, rgba(133, 133, 133, 0.09) 0, rgba(10, 10, 10, 0.05) 100%) no-repeat, url('images/nav.png'), linear-gradient(to bottom, rgba(112, 112, 112, 0.25) 0, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   -webkit-border-radius:0 0 20px 20px;
+   -moz-border-radius:0 0 20px 20px;
+   border-radius:0 0 20px 20px;
+   border:10px ridge rgba(173, 173, 173, 0.25);
+   border-top:10px groove rgba(173, 173, 173, 0.25);
+   border-left:10px groove rgba(173, 173, 173, 0.25);
+   padding:10px;
+   margin:0 auto;
+   position: relative;
+   z-index: 499;
+   text-align: center;
+}
+
+ul.wotgame-hmenu a, ul.wotgame-hmenu a:link, ul.wotgame-hmenu a:visited, ul.wotgame-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.wotgame-hmenu, ul.wotgame-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.wotgame-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.wotgame-hmenu li:hover
+{
+   z-index: 10000;
+   white-space: normal;
+}
+
+ul.wotgame-hmenu:after, ul.wotgame-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.wotgame-hmenu, ul.wotgame-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.wotgame-hmenu 
+{
+   display: inline-block;
+   vertical-align: middle;
+   padding-left: 20px;
+   padding-right: 20px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.wotgame-nav:before 
+{
+   content:' ';
+}
+
+.desktop .wotgame-nav{
+   width: 1100px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.wotgame-hmenu-extra1
+{
+   position: relative;
+   display: block;
+   float: left;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.wotgame-hmenu-extra2
+{
+   position: relative;
+   display: block;
+   float: right;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.wotgame-menuitemcontainer
+{
+   margin:0 auto;
+}
+ul.wotgame-hmenu>li {
+   margin-left: 15px;
+}
+ul.wotgame-hmenu>li:first-child {
+   margin-left: 7px;
+}
+ul.wotgame-hmenu>li:last-child, ul.wotgame-hmenu>li.last-child {
+   margin-right: 7px;
+}
+
+ul.wotgame-hmenu>li>a
+{
+   background: #363636 url('images/menuitem.png') scroll;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:5px ridge rgba(255, 255, 255, 0.09);
+   border-top:5px groove rgba(255, 255, 255, 0.09);
+   border-left:5px groove rgba(255, 255, 255, 0.09);
+   padding:0 12px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 28px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #FFFFFF;
+   line-height: 28px;
+   text-align: center;
+}
+
+.wotgame-hmenu>li>a, 
+.wotgame-hmenu>li>a:link, 
+.wotgame-hmenu>li>a:visited, 
+.wotgame-hmenu>li>a.active, 
+.wotgame-hmenu>li>a:hover
+{
+   font-size: 16px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-align: left;
+}
+
+ul.wotgame-hmenu>li>a.active
+{
+   background: #363636 url('images/menuactiveitem.png') scroll;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:5px ridge rgba(255, 255, 255, 0.18);
+   border-top:5px groove rgba(255, 255, 255, 0.18);
+   border-left:5px groove rgba(255, 255, 255, 0.18);
+   padding:0 12px;
+   margin:0 auto;
+   color: #DF0101;
+   text-decoration: none;
+}
+
+ul.wotgame-hmenu>li>a:visited, 
+ul.wotgame-hmenu>li>a:hover, 
+ul.wotgame-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+ul.wotgame-hmenu>li>a:hover, .desktop ul.wotgame-hmenu>li:hover>a
+{
+   background: #363636 url('images/menuhovereditem.png') scroll;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:5px ridge rgba(255, 255, 255, 0.18);
+   border-top:5px groove rgba(255, 255, 255, 0.18);
+   border-left:5px groove rgba(255, 255, 255, 0.18);
+   padding:0 12px;
+   margin:0 auto;
+}
+ul.wotgame-hmenu>li>a:hover, 
+.desktop ul.wotgame-hmenu>li:hover>a {
+   color: #DF0101;
+   text-decoration: none;
+}
+
+ul.wotgame-hmenu li li a
+{
+   background: #B9C2CB;
+   background: transparent;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   padding:0 8px;
+   margin:0 auto;
+}
+ul.wotgame-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.desktop ul.wotgame-hmenu li li ul>li:first-child 
+{
+   margin-top: 0;
+}
+
+ul.wotgame-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.wotgame-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 25px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 25px;
+   color: #FFFFFF;
+   font-size: 14px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+.wotgame-hmenu ul a:link, 
+.wotgame-hmenu ul a:visited, 
+.wotgame-hmenu ul a.active, 
+.wotgame-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 25px;
+   color: #FFFFFF;
+   font-size: 14px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+ul.wotgame-hmenu li li:after
+{
+   display: block;
+   position: absolute;
+   content: ' ';
+   height: 0;
+   top: -9px;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   border-bottom: 3px double #292929;
+}
+
+.desktop ul.wotgame-hmenu li li:first-child:before, 
+.desktop ul.wotgame-hmenu li li:first-child:after 
+{
+   display: none;
+} 
+
+ul.wotgame-hmenu ul li a:hover, .desktop ul.wotgame-hmenu ul li:hover>a
+{
+   background: #FFFFFF;
+   background: transparent;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   margin:0 auto;
+}
+.wotgame-hmenu ul a:hover
+{
+   text-decoration: none;
+   color: #DF0101;
+}
+
+.desktop .wotgame-hmenu ul li:hover>a
+{
+   color: #DF0101;
+}
+
+ul.wotgame-hmenu ul:before
+{
+   background: #212121;
+   background: rgba(33, 33, 33, 0.93);
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   border:5px double rgba(41, 41, 41, 0.93);
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+}
+.desktop ul.wotgame-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+.desktop ul.wotgame-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+
+ul.wotgame-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('images/spacer.gif');
+}
+
+.desktop ul.wotgame-hmenu>li>ul
+{
+   padding: 43px 43px 43px 43px;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop ul.wotgame-hmenu ul ul
+{
+   padding: 43px 43px 43px 29px;
+   margin: -43px 0 0 -2px;
+}
+
+.desktop ul.wotgame-hmenu ul.wotgame-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop ul.wotgame-hmenu ul.wotgame-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+.desktop ul.wotgame-hmenu li li:hover>ul.wotgame-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+.desktop ul.wotgame-hmenu li li:hover>ul.wotgame-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+.desktop ul.wotgame-hmenu ul ul.wotgame-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 43px 43px 43px 29px;
+   margin: -43px 0 0 -2px;
+}
+
+.desktop ul.wotgame-hmenu ul ul.wotgame-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 43px 29px 43px 43px;
+   margin: -43px -2px 0 0;
+}
+
+.desktop ul.wotgame-hmenu li ul>li:first-child {
+   margin-top: 0;
+}
+.desktop ul.wotgame-hmenu li ul>li:last-child {
+   margin-bottom: 0;
+}
+
+.desktop ul.wotgame-hmenu ul ul:before
+{
+   border-radius: 5px;
+   top: 30px;
+   bottom: 30px;
+   right: 30px;
+   left: 16px;
+}
+
+.desktop ul.wotgame-hmenu>li>ul:before
+{
+   top: 30px;
+   right: 30px;
+   bottom: 30px;
+   left: 30px;
+}
+
+.desktop ul.wotgame-hmenu>li>ul.wotgame-hmenu-left-to-right:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop ul.wotgame-hmenu>li>ul.wotgame-hmenu-right-to-left:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop ul.wotgame-hmenu ul ul.wotgame-hmenu-left-to-right:before {
+   right: 30px;
+   left: 16px;
+}
+.desktop ul.wotgame-hmenu ul ul.wotgame-hmenu-right-to-left:before {
+   right: 16px;
+   left: 30px;
+}
+
+.wotgame-header
+{
+   -webkit-border-radius:20px;
+   -moz-border-radius:20px;
+   border-radius:20px;
+   margin:10px auto 0;
+   background-repeat: no-repeat;
+   height: 200px;
+   background-image: url('images/object454038949.png'),url('images/object464399320.png'), url('images/header.png');
+   background-position: 43px 75px,784px 20px, 0 0;
+   position: relative;
+   width: 1100px;
+   z-index: auto !important;
+}
+
+.custom-responsive .wotgame-header
+{
+   background-image: url('images/object454038949.png'),url('images/object464399320.png'), url('images/header.png');
+   background-position: 43px 75px,784px 20px, 0 0;
+}
+
+.default-responsive .wotgame-header,
+.default-responsive #wotgame-header-bg
+{
+   background-image: url('images/header.png');
+   background-position: center center;
+   background-size: cover;
+}
+
+.wotgame-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+.wotgame-header .wotgame-slider-inner
+{
+   -webkit-border-radius:20px;
+   -moz-border-radius:20px;
+   border-radius:20px;
+}
+
+.wotgame-sheet
+{
+   background: #212121;
+   background: rgba(33, 33, 33, 0.7);
+   -webkit-border-radius:20px;
+   -moz-border-radius:20px;
+   border-radius:20px;
+   border:6px double rgba(0, 0, 0, 0.5);
+   padding:5px;
+   margin:20px auto 0;
+   position:relative;
+   cursor:auto;
+   width: 1100px;
+   z-index: auto !important;
+}
+
+.wotgame-layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.wotgame-content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+}
+
+.wotgame-content-layout-row 
+{
+   display: table-row;
+}
+
+.wotgame-layout-cell
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: table-cell;
+   vertical-align: top;
+}
+
+/* need only for content layout in post content */ 
+.wotgame-postcontent .wotgame-content-layout
+{
+   border-collapse: collapse;
+}
+
+.wotgame-breadcrumbs
+{
+   margin:0 auto;
+}
+
+a.wotgame-button,
+a.wotgame-button:link,
+a:link.wotgame-button:link,
+body a.wotgame-button:link,
+a.wotgame-button:visited,
+body a.wotgame-button:visited,
+input.wotgame-button,
+button.wotgame-button
+{
+   text-decoration: none;
+   font-size: 16px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #F9D088;
+   margin: 0 5px 0 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 28px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.wotgame-button img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .wotgame-button
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea, a.wotgame-search-button span
+{
+   vertical-align: middle;
+   font-size: 16px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.wotgame-block select 
+{
+   width:96%;
+}
+
+input.wotgame-button
+{
+   float: none !important;
+   -webkit-appearance: none;
+}
+
+.wotgame-button.active, .wotgame-button.active:hover
+{
+   background: #242424;
+   background: rgba(36, 36, 36, 0.9);
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   border:1px double rgba(23, 23, 23, 0.6);
+   padding:0 20px;
+   margin:0 auto;
+}
+.wotgame-button.active, .wotgame-button.active:hover {
+   color: #DF0101 !important;
+}
+
+.wotgame-button.hover, .wotgame-button:hover
+{
+   background: #242424;
+   background: rgba(36, 36, 36, 0.9);
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   border:1px double rgba(23, 23, 23, 0.6);
+   padding:0 20px;
+   margin:0 auto;
+}
+.wotgame-button.hover, .wotgame-button:hover {
+   color: #FA6114 !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="number"], input[type="range"], input[type="tel"], input[type="time"], input[type="week"], textarea
+{
+   background: #212121;
+   background: rgba(33, 33, 33, 0.6);
+   -webkit-box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.09);
+   -moz-box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.09);
+   box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.09);
+   border:1px solid rgba(23, 23, 23, 0.6);
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="number"], input[type="range"], input[type="tel"], input[type="time"], input[type="week"], textarea
+{
+   width: 100%;
+   padding: 10px 0;
+   color: #FA6114 !important;
+   font-size: 11px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-shadow: none;
+}
+input.wotgame-error, textarea.wotgame-error
+{
+   background: #3D3D3D;
+   background: rgba(61, 61, 61, 0.3);
+   border:1px solid #E2341D;
+   margin:0 auto;
+}
+input.wotgame-error, textarea.wotgame-error {
+   color: #D2DBE4 !important;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.wotgame-search input[type="text"]
+{
+   background: #3D3D3D;
+   background: rgba(61, 61, 61, 0.6);
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   border:3px double rgba(0, 0, 0, 0.25);
+   margin:0 auto;
+   width: 100%;
+   padding: 5px 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #FA6114 !important;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.wotgame-search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.wotgame-search input, a.wotgame-search-button
+{
+   -webkit-appearance: none;
+   top:0;
+   right:0;
+}
+
+form.wotgame-search>input, a.wotgame-search-button{
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+
+form.wotgame-search input[type="submit"], input.wotgame-search-button, a.wotgame-search-button
+{
+   border-radius: 0;
+   margin:0 auto;
+}
+form.wotgame-search input[type="submit"], input.wotgame-search-button, a.wotgame-search-button {
+   position:absolute;
+   left:auto;
+   display:block;
+   border:none;
+   background:url('images/searchicon.png') center center no-repeat;
+   width:24px;
+   height: 100%;
+   padding:0;
+   color: #F25322 !important;
+   cursor: pointer;
+}
+
+a.wotgame-search-button span.wotgame-search-button-text {
+   display: none;
+}
+
+label.wotgame-checkbox:before
+{
+   background: #212121;
+   background: -webkit-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: -moz-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: -o-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: -ms-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   -svg-background: linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: linear-gradient(to bottom, #383838 0, #0D0D0D 100%) no-repeat;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:3px double #2B2B2B;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+   vertical-align: top;
+   content: ' ';
+}
+label.wotgame-checkbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+   color: #878787 !important;
+   position: relative;
+}
+
+.wotgame-checkbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.wotgame-checkbox.active:before
+{
+   border-width: 0;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.wotgame-checkbox.hovered:before
+{
+   background: #212121;
+   background: -webkit-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: -moz-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: -o-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: -ms-linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   -svg-background: linear-gradient(top, #383838 0, #0D0D0D 100%) no-repeat;
+   background: linear-gradient(to bottom, #383838 0, #0D0D0D 100%) no-repeat;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:3px double #2B2B2B;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.wotgame-radiobutton:before
+{
+   background: #212121;
+   background: -webkit-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: -o-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: linear-gradient(to bottom, #3D3D3D 0, #030303 100%) no-repeat;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:3px double #2B2B2B;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+   vertical-align: top;
+   content: ' ';
+}
+label.wotgame-radiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+   color: #878787 !important;
+   position: relative;
+}
+
+.wotgame-radiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.wotgame-radiobutton.active:before
+{
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border-width: 0;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.wotgame-radiobutton.hovered:before
+{
+   background: #212121;
+   background: -webkit-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: -o-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3D3D3D 0, #030303 100%) no-repeat;
+   background: linear-gradient(to bottom, #3D3D3D 0, #030303 100%) no-repeat;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:3px double #2B2B2B;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.wotgame-radiobutton input[type="radio"]
+{
+   display: none;
+}
+
+label.wotgame-radiobutton.wotgame-checked:after
+{
+   content: url('images/radiobuttonicon.png');
+   position: absolute;
+   line-height: 12px;
+   left: 2px;
+   top: 2px;
+}
+
+label.wotgame-checkbox input[type="checkbox"]
+{
+   display: none;
+}
+
+label.wotgame-checkbox.wotgame-checked:after
+{
+   content: url('images/checkboxicon.png');
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+.wotgame-comments
+{
+   border-top:1px dashed #2B2B2B;
+   margin:0 auto;
+   margin-top: 25px;
+}
+
+.wotgame-comments h2
+{
+   color: #5C5C5C;
+}
+
+.wotgame-comment
+{
+   background: #212121;
+   background: rgba(33, 33, 33, 0.6);
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   -webkit-box-shadow:3px 3px 3px 2px rgba(0, 0, 0, 0.12);
+   -moz-box-shadow:3px 3px 3px 2px rgba(0, 0, 0, 0.12);
+   box-shadow:3px 3px 3px 2px rgba(0, 0, 0, 0.12);
+   border:1px solid rgba(23, 23, 23, 0.6);
+   padding:5px;
+   margin:0 auto;
+   margin-top: 20px;
+}
+.wotgame-comment-avatar 
+{
+   float:left;
+   width:80px;
+   height:80px;
+   padding:0;
+   background:#fff;
+   border:1px solid rgba(41, 41, 41, 0.95);
+}
+
+.wotgame-comment-avatar>img
+{
+   margin:0 !important;
+   border:none !important;
+}
+
+.wotgame-comment-content
+{
+   padding:10px 0;
+   color: #EAEDF0;
+   font-size: 11px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+#comment-list>li:first-child>.wotgame-comment
+{
+   margin-top: 0;
+}
+
+.wotgame-comment-inner
+{
+   margin-left: 92px;
+}
+
+.wotgame-comment-header
+{
+   color: #666666;
+   font-size: 9px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
+}
+
+.wotgame-comment-header a, 
+.wotgame-comment-header a:link, 
+.wotgame-comment-header a:visited,
+.wotgame-comment-header a.visited,
+.wotgame-comment-header a:hover,
+.wotgame-comment-header a.hovered
+{
+   font-size: 9px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
+}
+
+.wotgame-comment-header a, .wotgame-comment-header a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   color: #666666;
+}
+
+.wotgame-comment-header a:visited, .wotgame-comment-header a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #666666;
+}
+
+.wotgame-comment-header a:hover,  .wotgame-comment-header a.hovered
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #F9D088;
+}
+
+.wotgame-comment-content a, 
+.wotgame-comment-content a:link, 
+.wotgame-comment-content a:visited,
+.wotgame-comment-content a.visited,
+.wotgame-comment-content a:hover,
+.wotgame-comment-content a.hovered
+{
+   font-size: 11px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.wotgame-comment-content a, .wotgame-comment-content a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #FA6114;
+}
+
+.wotgame-comment-content a:visited, .wotgame-comment-content a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #EAEDF0;
+}
+
+.wotgame-comment-content a:hover,  .wotgame-comment-content a.hovered
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #FA6114;
+}
+
+.wotgame-pager
+{
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   padding:6px;
+   margin:2px;
+   text-align:center;
+}
+
+.wotgame-pager>*:last-child
+{
+   margin-right:0 !important;
+}
+
+.wotgame-pager>span {
+   cursor:default;
+}
+
+.wotgame-pager>*
+{
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   padding:10px;
+   margin:0 4px 0 auto;
+   line-height: normal;
+   position:relative;
+   display:inline-block;
+   margin-left: 0;
+}
+
+.wotgame-pager a:link,
+.wotgame-pager a:visited,
+.wotgame-pager .active
+{
+   line-height: normal;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #878787
+;
+}
+
+.wotgame-pager .active
+{
+   padding:10px;
+   margin:0 4px 0 auto;
+   color: #FA6114
+;
+}
+
+.wotgame-pager .more
+{
+   margin:0 4px 0 auto;
+}
+.wotgame-pager a.more:link,
+.wotgame-pager a.more:visited
+{
+   color: #878787
+;
+}
+.wotgame-pager a:hover
+{
+   padding:10px;
+   margin:0 4px 0 auto;
+}
+.wotgame-pager  a:hover,
+.wotgame-pager  a.more:hover
+{
+   text-decoration: none;
+   color: #DF0101
+;
+}
+.wotgame-pager>*:after
+{
+   margin:0 0 0 auto;
+   display:inline-block;
+   position:absolute;
+   content: ' ';
+   top:0;
+   width:0;
+   height:100%;
+   right: 0;
+   text-decoration:none;
+}
+
+.wotgame-pager>*:last-child:after{
+   display:none;
+}
+
+.wotgame-commentsform
+{
+   background: #E2E8EE;
+   background: transparent;
+   padding:10px;
+   margin:0 auto;
+   margin-top:25px;
+   color: #5C5C5C;
+}
+
+.wotgame-commentsform h2{
+   padding-bottom:10px;
+   margin: 0;
+   color: #5C5C5C;
+}
+
+.wotgame-commentsform label {
+   display: inline-block;
+   line-height: 25px;
+}
+
+.wotgame-commentsform input:not([type=submit]), .wotgame-commentsform textarea {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   width:100%;
+   max-width:100%;
+}
+
+.wotgame-commentsform .form-submit
+{
+   margin-top: 20px;
+}
+.wotgame-vmenublock
+{
+   background: #292929;
+   background: -webkit-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(48, 48, 48, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(48, 48, 48, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(48, 48, 48, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(48, 48, 48, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(48, 48, 48, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: linear-gradient(to bottom, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(48, 48, 48, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid rgba(0, 0, 0, 0.25);
+   padding:7px;
+   margin:5px;
+}
+div.wotgame-vmenublock img
+{
+   margin: 0;
+}
+
+.wotgame-vmenublockheader
+{
+   padding:12px 5px;
+   margin:0 auto;
+}
+.wotgame-vmenublockheader .t,
+.wotgame-vmenublockheader .t a,
+.wotgame-vmenublockheader .t a:link,
+.wotgame-vmenublockheader .t a:visited, 
+.wotgame-vmenublockheader .t a:hover
+{
+   color: #FA6114;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   margin: 0 10px;
+}
+
+.wotgame-vmenublockcontent
+{
+   padding:5px;
+   margin:0 auto;
+}
+
+ul.wotgame-vmenu, ul.wotgame-vmenu ul
+{
+   list-style: none;
+   display: block;
+}
+
+ul.wotgame-vmenu, ul.wotgame-vmenu li
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   line-height: 0;
+}
+
+ul.wotgame-vmenu
+{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+ul.wotgame-vmenu ul
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+ul.wotgame-vmenu ul.active
+{
+   display: block;
+}
+
+ul.wotgame-vmenu>li>a
+{
+   padding:0 15px;
+   margin:0 auto;
+   font-size: 14px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #F9D088;
+   min-height: 30px;
+   line-height: 30px;
+}
+ul.wotgame-vmenu a 
+{
+   display: block;
+   cursor: pointer;
+   z-index: 1;
+   position:relative;
+}
+
+ul.wotgame-vmenu li{
+   position:relative;
+}
+
+ul.wotgame-vmenu>li
+{
+   margin-top: 0;
+}
+ul.wotgame-vmenu>li>ul
+{
+   padding: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+ul.wotgame-vmenu>li:first-child
+{
+   margin-top:0;
+}
+
+ul.wotgame-vmenu>li>a:before
+{
+   content:url('images/vmenuitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.wotgame-vmenu>li>a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.wotgame-vmenu>li>a.active:before
+{
+   content:url('images/vmenuactiveitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.wotgame-vmenu>li>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.wotgame-vmenu>li>a:hover:before,  ul.wotgame-vmenu>li>a.active:hover:before,  ul.wotgame-vmenu>li:hover>a:before,  ul.wotgame-vmenu>li:hover>a.active:before
+{
+   content:url('images/vmenuhovereditemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.wotgame-vmenu>li>a:hover:before, .opera   ul.wotgame-vmenu>li>a.active:hover:before, .opera   ul.wotgame-vmenu>li:hover>a:before, .opera   ul.wotgame-vmenu>li:hover>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.wotgame-vmenu>li>a:hover, ul.wotgame-vmenu>li>a.active:hover
+{
+   padding:0 15px;
+   margin:0 auto;
+}
+ul.wotgame-vmenu>li>a:hover, ul.wotgame-vmenu>li>a.active:hover
+{
+   text-decoration: none;
+}
+
+ul.wotgame-vmenu a:hover, ul.wotgame-vmenu a.active:hover 
+{
+   color: #DF0101;
+}
+
+ul.wotgame-vmenu>li>a.active:hover>span.border-top, ul.wotgame-vmenu>li>a.active:hover>span.border-bottom 
+{
+   background-color: transparent;
+}
+
+ul.wotgame-vmenu>li>a.active
+{
+   padding:0 15px;
+   margin:0 auto;
+   text-decoration: none;
+   color: #DF0101;
+}
+
+ul.wotgame-vmenu>li>ul:before
+{
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+ul.wotgame-vmenu li li a
+{
+   margin:0 auto;
+   position: relative;
+}
+ul.wotgame-vmenu ul li
+{
+   margin: 0;
+   padding: 0;
+}
+ul.wotgame-vmenu li li{
+   position: relative;
+   margin-top: 0;
+}
+
+ul.wotgame-vmenu ul a
+{
+   display: block;
+   position: relative;
+   min-height: 22px;
+   overflow: visible;
+   padding: 0;
+   padding-left: 27px;
+   padding-right: 27px;
+   z-index: 0;
+   line-height: 22px;
+   color: #ADADAD;
+   font-size: 11px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.wotgame-vmenu ul a:visited, ul.wotgame-vmenu ul a.active:hover, ul.wotgame-vmenu ul a:hover, ul.wotgame-vmenu ul a.active
+{
+   line-height: 22px;
+   color: #ADADAD;
+   font-size: 11px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.wotgame-vmenu ul ul a
+{
+   padding-left: 54px;
+}
+ul.wotgame-vmenu ul ul ul a
+{
+   padding-left: 81px;
+}
+ul.wotgame-vmenu ul ul ul ul a
+{
+   padding-left: 108px;
+}
+ul.wotgame-vmenu ul ul ul ul ul a
+{
+   padding-left: 135px;
+}
+
+ul.wotgame-vmenu li li a:before
+{
+   content:url('images/vmenusubitemicon.png');
+   margin-right:10px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.wotgame-vmenu li li a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.wotgame-vmenu ul>li>a:hover, ul.wotgame-vmenu ul>li>a.active:hover
+{
+   margin:0 auto;
+}
+ul.wotgame-vmenu ul li a:hover, ul.wotgame-vmenu ul li a.active:hover
+{
+   text-decoration: none;
+   color: #F9D088;
+}
+
+ul.wotgame-vmenu ul a:hover:after
+{
+   background-position: center ;
+}
+ul.wotgame-vmenu ul a.active:hover:after
+{
+   background-position: center ;
+}
+ul.wotgame-vmenu ul a.active:after
+{
+   background-position: bottom ;
+}
+
+ul.wotgame-vmenu li li a:hover:before
+{
+   content:url('images/vmenuhoveredsubitemicon.png');
+   margin-right:10px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.wotgame-vmenu li li a:hover:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.wotgame-vmenu ul>li>a.active
+{
+   margin:0 auto;
+}
+ul.wotgame-vmenu ul a.active, ul.wotgame-vmenu ul a:hover, ul.wotgame-vmenu ul a.active:hover
+{
+   text-decoration: none;
+   color: #F9D088;
+}
+
+ul.wotgame-vmenu li li a.active:before
+{
+   content:url('images/vmenuactivesubitemicon.png');
+   margin-right:10px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.wotgame-vmenu li li a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.wotgame-block
+{
+   background: #292929;
+   background: -webkit-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(51, 51, 51, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(51, 51, 51, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(51, 51, 51, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(51, 51, 51, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(51, 51, 51, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   background: linear-gradient(to bottom, rgba(31, 31, 31, 0.25) 0, rgba(48, 48, 48, 0.25) 40%, rgba(51, 51, 51, 0.25) 50%, rgba(48, 48, 48, 0.25) 60%, rgba(31, 31, 31, 0.25) 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid rgba(0, 0, 0, 0.25);
+   padding:10px;
+   margin:5px;
+}
+div.wotgame-block img
+{
+   border: none;
+   margin: 0;
+}
+
+.wotgame-blockheader
+{
+   border-bottom:3px double transparent;
+   padding:6px 5px;
+   margin:0 auto;
+}
+.wotgame-blockheader .t,
+.wotgame-blockheader .t a,
+.wotgame-blockheader .t a:link,
+.wotgame-blockheader .t a:visited, 
+.wotgame-blockheader .t a:hover
+{
+   color: #FA6114;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   margin: 0 5px;
+}
+
+.wotgame-blockcontent
+{
+   padding:5px;
+   margin:0 auto;
+   color: #979899;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: justify;
+   text-indent: 5px;
+   line-height: 125%;
+}
+.wotgame-blockcontent table,
+.wotgame-blockcontent li, 
+.wotgame-blockcontent a,
+.wotgame-blockcontent a:link,
+.wotgame-blockcontent a:visited,
+.wotgame-blockcontent a:hover
+{
+   color: #979899;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: justify;
+   text-indent: 5px;
+   line-height: 125%;
+}
+
+.wotgame-blockcontent p
+{
+   margin: 0 5px;
+}
+
+.wotgame-blockcontent a, .wotgame-blockcontent a:link
+{
+   color: #F9D088;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.wotgame-blockcontent a:visited, .wotgame-blockcontent a.visited
+{
+   color: #F9D088;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.wotgame-blockcontent a:hover, .wotgame-blockcontent a.hover
+{
+   color: #DF0101;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+.wotgame-block li
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+   color: #ADADAD;
+   margin: 5px 0 0 10px;
+}
+
+.wotgame-post
+{
+   background: #2B2B2B;
+   background: rgba(43, 43, 43, 0.2);
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid rgba(0, 0, 0, 0.2);
+   padding:5px;
+   margin:5px;
+}
+a img
+{
+   border: 0;
+}
+
+.wotgame-article img, img.wotgame-article, .wotgame-block img, .wotgame-footer-text img
+{
+   border: 1px groove rgba(61, 61, 61, 0.45);
+   margin: 15px 15px 15px 0;
+}
+
+.wotgame-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.wotgame-article table, table.wotgame-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.wotgame-post .wotgame-content-layout-br
+{
+   height: 0;
+}
+
+.wotgame-article th, .wotgame-article td
+{
+   padding: 2px;
+   border: double 3px #292929;
+   vertical-align: top;
+   text-align: left;
+}
+
+.wotgame-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 15px 15px 15px 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.wotgame-collage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.wotgame-postheader
+{
+   color: #FFFFFF;
+   margin: 5px 10px;
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.wotgame-postheader a, 
+.wotgame-postheader a:link, 
+.wotgame-postheader a:visited,
+.wotgame-postheader a.visited,
+.wotgame-postheader a:hover,
+.wotgame-postheader a.hovered
+{
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.wotgame-postheader a, .wotgame-postheader a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #F9D088;
+}
+
+.wotgame-postheader a:visited, .wotgame-postheader a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #F9D088;
+}
+
+.wotgame-postheader a:hover,  .wotgame-postheader a.hovered
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #F25322;
+}
+
+.wotgame-postheadericons,
+.wotgame-postheadericons a,
+.wotgame-postheadericons a:link,
+.wotgame-postheadericons a:visited,
+.wotgame-postheadericons a:hover
+{
+   font-size: 10px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #707070;
+}
+
+.wotgame-postheadericons
+{
+   padding: 1px;
+   margin: 0 0 0 10px;
+}
+
+.wotgame-postheadericons a, .wotgame-postheadericons a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F9D088;
+}
+
+.wotgame-postheadericons a:visited, .wotgame-postheadericons a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #F9D088;
+}
+
+.wotgame-postheadericons a:hover, .wotgame-postheadericons a.hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #F25322;
+}
+
+.wotgame-postdateicon:before
+{
+   content:url('images/postdateicon.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-postdateicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.wotgame-postauthoricon:before
+{
+   content:url('images/postauthoricon.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-postauthoricon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.wotgame-postediticon:before
+{
+   content:url('images/postediticon.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-postediticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.wotgame-postcontent ul>li:before,  .wotgame-post ul>li:before,  .wotgame-textblock ul>li:before
+{
+   content:url('images/postbullets.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-postcontent ul>li:before, .opera   .wotgame-post ul>li:before, .opera   .wotgame-textblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+.wotgame-postcontent ul>li:before,  .wotgame-post ul>li:before,  .wotgame-textblock ul>li:before
+{
+   bottom: auto;
+}
+
+.wotgame-postcontent li, .wotgame-post li, .wotgame-textblock li
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #FFFFFF;
+   margin: 3px 0 0 11px;
+}
+
+.wotgame-postcontent ul>li, .wotgame-post ul>li, .wotgame-textblock ul>li, .wotgame-postcontent ol, .wotgame-post ol, .wotgame-textblock ol
+{
+   padding: 0;
+}
+
+.wotgame-postcontent ul>li, .wotgame-post ul>li, .wotgame-textblock ul>li
+{
+   padding-left: 27px;
+}
+
+.wotgame-postcontent ul>li:before,  .wotgame-post ul>li:before,  .wotgame-textblock ul>li:before
+{
+   margin-left: -27px;
+}
+
+.wotgame-postcontent ol, .wotgame-post ol, .wotgame-textblock ol, .wotgame-postcontent ul, .wotgame-post ul, .wotgame-textblock ul
+{
+   margin: 1em 0 1em 11px;
+}
+
+.wotgame-postcontent li ol, .wotgame-post li ol, .wotgame-textblock li ol, .wotgame-postcontent li ul, .wotgame-post li ul, .wotgame-textblock li ul
+{
+   margin: 0.5em 0 0.5em 11px;
+}
+
+.wotgame-postcontent li, .wotgame-post li, .wotgame-textblock li
+{
+   margin: 3px 0 0 0;
+}
+
+.wotgame-postcontent ol>li, .wotgame-post ol>li, .wotgame-textblock ol>li
+{
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.wotgame-postcontent ul>li, .wotgame-post ul>li, .wotgame-textblock ul>li
+{
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background:  url('images/postquote.png') no-repeat scroll;
+   padding:12px 12px 12px 48px;
+   margin:10px 0 0 25px;
+   color: #FA6114;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-align: left;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .wotgame-postcontent blockquote a, .wotgame-blockcontent blockquote a, .wotgame-footer-text blockquote a,
+blockquote a:link, .wotgame-postcontent blockquote a:link, .wotgame-blockcontent blockquote a:link, .wotgame-footer-text blockquote a:link,
+blockquote a:visited, .wotgame-postcontent blockquote a:visited, .wotgame-blockcontent blockquote a:visited, .wotgame-footer-text blockquote a:visited,
+blockquote a:hover, .wotgame-postcontent blockquote a:hover, .wotgame-blockcontent blockquote a:hover, .wotgame-footer-text blockquote a:hover
+{
+   color: #FA6114;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.wotgame-postcontent blockquote p,
+.wotgame-blockcontent blockquote p,
+.wotgame-footer-text blockquote p
+{
+   margin: 0;
+   margin: 5px 0;
+}
+
+.wotgame-postfootericons,
+.wotgame-postfootericons a,
+.wotgame-postfootericons a:link,
+.wotgame-postfootericons a:visited,
+.wotgame-postfootericons a:hover
+{
+   font-size: 10px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #707070;
+}
+
+.wotgame-postfootericons
+{
+   padding: 1px;
+   margin: 0 0 0 10px;
+}
+
+.wotgame-postfootericons a, .wotgame-postfootericons a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F9D088;
+}
+
+.wotgame-postfootericons a:visited, .wotgame-postfootericons a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F9D088;
+}
+
+.wotgame-postfootericons a:hover, .wotgame-postfootericons a.hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F25322;
+}
+
+.wotgame-postcategoryicon:before
+{
+   content:url('images/postcategoryicon.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-postcategoryicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.wotgame-posttagicon:before
+{
+   content:url('images/posttagicon.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-posttagicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.wotgame-postcommentsicon:before
+{
+   content:url('images/postcommentsicon.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .wotgame-postcommentsicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.Sorter img
+{
+   border:0;
+   vertical-align:middle;
+   padding:0;
+   margin:0;
+   position:static;
+   z-index:1;
+   width: 12px;
+   height: 6px;
+}
+
+.Sorter a
+{
+   position:relative;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #C1C9D1;
+}
+
+.Sorter a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #C1C9D1;
+}
+
+.Sorter a:visited, .Sorter a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #C1C9D1;
+}
+
+.Sorter a:hover, .Sorter a.hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #A4B0BC;
+}
+
+.Sorter
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color:#BEC7CF;
+}
+
+.wotgame-footer
+{
+   -webkit-border-radius:0 0 9px 9px;
+   -moz-border-radius:0 0 9px 9px;
+   border-radius:0 0 9px 9px;
+   border-top:3px double #2B2B2B;
+   padding:25px;
+   margin:0 auto;
+   position: relative;
+   color: #5C5C5C;
+   font-size: 10px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 150%;
+   text-align: center;
+}
+
+.wotgame-footer-text a,
+.wotgame-footer-text a:link,
+.wotgame-footer-text a:visited,
+.wotgame-footer-text a:hover,
+.wotgame-footer-text td, 
+.wotgame-footer-text th,
+.wotgame-footer-text caption
+{
+   color: #5C5C5C;
+   font-size: 10px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 150%;
+}
+
+.wotgame-footer-text p 
+{
+   padding:0;
+   text-align: center;
+}
+
+.wotgame-footer-text a,
+.wotgame-footer-text a:link
+{
+   color: #A3A3A3;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.wotgame-footer-text a:visited
+{
+   color: #A3A3A3;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.wotgame-footer-text a:hover
+{
+   color: #FA6114;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.wotgame-footer-text h1
+{
+   color: #FFFFFF;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.wotgame-footer-text h2
+{
+   color: #A3A3A3;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.wotgame-footer-text h3
+{
+   color: #717160;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.wotgame-footer-text h4
+{
+   color: #545454;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.wotgame-footer-text h5
+{
+   color: #545454;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.wotgame-footer-text h6
+{
+   color: #525252;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.wotgame-footer-text img
+{
+   border: none;
+   margin: 0;
+}
+
+.wotgame-rss-tag-icon
+{
+   background:  url('images/footerrssicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-rss-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-facebook-tag-icon
+{
+   background:  url('images/footerfacebookicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-facebook-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-twitter-tag-icon
+{
+   background:  url('images/footertwittericon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-twitter-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-tumblr-tag-icon
+{
+   background:  url('images/tumblricon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-tumblr-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-pinterest-tag-icon
+{
+   background:  url('images/pinteresticon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-pinterest-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-vimeo-tag-icon
+{
+   background:  url('images/vimeoicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-vimeo-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-youtube-tag-icon
+{
+   background:  url('images/youtubeicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-youtube-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-linkedin-tag-icon
+{
+   background:  url('images/linkedinicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.wotgame-linkedin-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.wotgame-footer-text li
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #FDCDB4;
+}
+
+.wotgame-page-footer, 
+.wotgame-page-footer a,
+.wotgame-page-footer a:link,
+.wotgame-page-footer a:visited,
+.wotgame-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #474747;
+}
+
+.wotgame-page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #3D3D3D;
+}
+
+.wotgame-lightbox-wrapper 
+{
+   background: #333;
+   background: rgba(0, 0, 0, .8);
+   bottom: 0;
+   left: 0;
+   padding: 0 100px;
+   position: fixed;
+   right: 0;
+   text-align: center;
+   top: 0;
+   z-index: 1000000;
+}
+
+.wotgame-lightbox,
+.wotgame-lightbox-wrapper .wotgame-lightbox-image
+{
+   cursor: pointer;
+}
+
+.wotgame-lightbox-wrapper .wotgame-lightbox-image
+{
+   border: 6px solid #fff;
+   border-radius: 3px;
+   display: none;
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+.wotgame-lightbox-wrapper .wotgame-lightbox-image.active
+{
+   display: inline-block;
+}
+
+.wotgame-lightbox-wrapper .lightbox-error
+{
+   background: #fff;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   height: 80px;
+   opacity: .95;
+   padding: 20px;
+   position: fixed;
+   width: 300px;
+   z-index: 100;
+}
+
+.wotgame-lightbox-wrapper .loading
+{
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   height: 32px;
+   opacity: .5;
+   padding: 10px;
+   position: fixed;
+   width: 32px;
+   z-index: 10100;
+}
+
+.wotgame-lightbox-wrapper .arrow
+{
+   cursor: pointer;
+   height: 100px;
+   opacity: .5;
+   filter: alpha(opacity=50);
+   position: fixed;
+   width: 82px;
+   z-index: 10003;
+}
+
+.wotgame-lightbox-wrapper .arrow.left
+{
+   left: 9px;
+}
+
+.wotgame-lightbox-wrapper .arrow.right
+{
+   right: 9px;
+}
+
+.wotgame-lightbox-wrapper .arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.wotgame-lightbox-wrapper .arrow.disabled 
+{
+   display: none;
+}
+
+.wotgame-lightbox-wrapper .arrow-t, 
+.wotgame-lightbox-wrapper .arrow-b
+{
+   background-color: #fff;
+   border-radius: 3px;
+   height: 6px;
+   left: 26px;
+   position: relative;
+   width: 30px;
+}
+
+.wotgame-lightbox-wrapper .arrow-t
+{
+   top: 38px;
+}
+
+.wotgame-lightbox-wrapper .arrow-b
+{
+   top: 50px;
+}
+
+.wotgame-lightbox-wrapper .close
+{
+   cursor: pointer;
+   height: 22px;
+   opacity: .5;
+   filter: alpha(opacity=50);
+   position: fixed;
+   right: 39px;
+   top: 30px;
+   width: 22px;
+   z-index: 10003;
+}
+
+.wotgame-lightbox-wrapper .close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.wotgame-lightbox-wrapper .close .cw, 
+.wotgame-lightbox-wrapper .close .ccw
+{
+   background-color: #fff;
+   border-radius: 3px;
+   height: 6px;
+   position: absolute;
+   left: -4px;
+   top: 8px;
+   width: 30px;
+}
+
+.wotgame-lightbox-wrapper .cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.wotgame-lightbox-wrapper .ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.wotgame-lightbox-wrapper .close-alt, 
+.wotgame-lightbox-wrapper .arrow-right-alt, 
+.wotgame-lightbox-wrapper .arrow-left-alt 
+{
+   color: #fff;
+   display: none;
+   font-size: 2.5em;
+   line-height: 100%;
+}
+
+.ie8 .wotgame-lightbox-wrapper .close-alt, 
+.ie8 .wotgame-lightbox-wrapper .arrow-right-alt, 
+.ie8 .wotgame-lightbox-wrapper .arrow-left-alt 
+{
+   display: block;
+}
+
+.ie8 .wotgame-lightbox-wrapper .cw, 
+.ie8 .wotgame-lightbox-wrapper .ccw 
+{
+   display: none;
+}
+
+.wotgame-content-layout .wotgame-content
+{
+   margin:0 auto;
+}
+
+.wotgame-content-layout .wotgame-sidebar1
+{
+   -webkit-border-radius:0 9px 0 0;
+   -moz-border-radius:0 9px 0 0;
+   border-radius:0 9px 0 0;
+   margin:0 auto;
+   width: 300px;
+}
+
+
+
+#comment
+{
+    width:99%;
+}
+
+#comments-list, #comments-list .comment 
+{
+  background: none;
+  padding:0;
+  margin:0;
+  overflow: visible;
+}
+
+#comments-list .comment:before, #comments-list .comment:after
+{
+  display:none;
+}
+
+#comments-list .comment .comment 
+{
+  margin-left: 20px;
+}
+
+span.page-navi-outer, span.page-navi-inner 
+{
+    position:relative;
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+span.page-navi-outer
+{
+  margin: 1px;
+  border: 1px solid #aaa;
+}
+
+span.page-navi-inner 
+{
+  padding: 1px;
+  min-width:14px;
+  line-height:18px;
+  text-align:center;
+  border: 2px solid #fff;
+  font-weight:bold;
+}
+
+a span.page-navi-inner, span.page-navi-caption span.page-navi-inner 
+{
+    border-width:1px;
+    font-weight:normal;
+}
+
+a span.page-navi-outer, span.page-navi-caption
+{
+    margin:2px 1px;
+}
+
+ul#comments-list li cite
+{
+  font-size: 1.2em;
+}
+
+#commentform textarea
+{
+  width: 100%;
+}
+
+#commentform
+{
+  text-align:left;
+}
+
+.rtl #commentform
+{
+  text-align:right;
+}
+
+img.wp-smiley
+{
+  border: none;
+  margin: 1px;
+  vertical-align:middle;
+  padding: 0;
+}
+
+.navigation
+{
+  display: block;
+  text-align: center;
+}
+
+/* Recommended by http://codex.wordpress.org/CSS */
+/* Begin */
+.aligncenter, div.aligncenter, .wotgame-article .aligncenter img, .aligncenter img.wotgame-article, .aligncenter img, img.aligncenter
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.aligncenter , p.center 
+{
+   text-align: center; 
+}
+
+.alignleft
+{
+  float: left;
+}
+
+.alignright
+{
+  float: right;
+}
+
+.wp-caption
+{
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  padding-top: 4px;
+  margin: 10px;
+}
+
+.wp-caption img
+{
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+.wp-caption p.wp-caption-text
+{
+  font-size: 11px;
+  line-height: 17px;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+
+.wp-caption, .wp-caption p
+{
+    text-align: center;
+}
+
+.gallery {
+	margin: 0 auto 18px;
+    clear:both;
+    overflow:hidden;
+}
+
+.gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery img {
+	border: 2px solid #cfcfcf;
+}
+
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+
+.gallery dl {
+	margin: 0;
+}
+
+.gallery img {
+	border: 10px solid #f1f1f1;
+}
+
+.gallery br+br {
+	display: none;
+}
+/* End */
+
+
+.hidden
+{
+  display: none;
+}
+
+/* Calendar */
+#wp-calendar {
+  empty-cells: show;
+  margin: 10px auto 0;
+  width: 155px;
+}
+
+#wp-calendar #next a {
+  padding-right: 10px;
+  text-align: right;
+}
+
+#wp-calendar #prev a {
+  padding-left: 10px;
+  text-align: left;
+}
+
+#wp-calendar a {
+  display: block;
+}
+
+#wp-calendar caption {
+  text-align: center;
+  width: 100%;
+}
+
+#wp-calendar td {
+  padding: 3px 0;
+  text-align: center;
+}
+
+.gallery {
+  letter-spacing: normal;
+}
+
+.wotgame-content {
+  position: relative;
+  z-index: 1;   
+}
+
+#todays-events{
+  position: relative;
+  z-index: 11;    
+}
+
+#upcoming-events{
+  position: relative;
+  z-index: 10;    
+}
+
+img.wp-post-image 
+{
+    margin:0 5px 5px 0 !important;
+}
+
+ul#comments-list li
+{
+    list-style-image: none;
+    background:none;
+    list-style-type:none;
+    
+}
+
+div.wotgame-footer div.wotgame-content-layout
+{
+    margin:0 auto;
+    width:100%;
+}
+
+div.wotgame-layout-cell-size1 
+{
+    width:100%;
+}
+
+div.wotgame-layout-cell-size2 
+{
+    width:50%;
+}
+div.wotgame-layout-cell-size3 
+{
+    width:33%;
+}
+
+div.wotgame-layout-cell-size4
+{
+    width:25%;
+}
+
+.wotgame-widget-title
+{
+    padding:0 0 0 24px;
+    margin-bottom:0;
+}
+
+div.wotgame-center-wrapper
+{
+  position: relative;
+  float: right;
+  right: 50%;
+
+}
+
+div.wotgame-center-inner
+{
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+.firefox2 div.wotgame-center-inner
+{
+  float: none;
+}
+
+.wotgame-hmenu-extra1, .wotgame-hmenu-extra2 {
+ font-size:12px;
+}
+
+div.breadcrumbs h4, 
+div.breadcrumbs p, 
+li.pingback p, 
+#respond p,
+h3#reply-title, 
+h4#comments, 
+h4.box-title
+{
+    margin:0;
+}
+
+#respond .comment-notes {
+	margin-bottom: 1em;
+}
+
+.form-allowed-tags {
+	line-height: 1em;
+}
+
+#comments-list #respond {
+	/*margin-left: NaNpx !important; TODO NodeJS*/
+}
+
+#cancel-comment-reply-link {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+#respond .required {
+	color: #ff4b33;
+	font-weight: bold;
+}
+
+#respond label {
+	font-size: 12px;
+}
+
+#respond input {
+	margin: 0 0 9px;
+	width: 98%;
+}
+
+#respond textarea {
+	width: 98%;
+}
+
+#respond .form-allowed-tags {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#respond .form-allowed-tags code {
+	font-size: 11px;
+}
+
+#respond .form-submit {
+	margin: 12px 0;
+}
+
+#respond .form-submit input {
+	width: auto;
+}
+
+.wotgame-footer .wotgame-widget-title 
+{
+    font-size:1.2em;
+    padding: 0;
+}
+
+.wotgame-footer .wotgame-widget,
+.wotgame-footer .wotgame-widget a,
+.wotgame-footer .wotgame-widget a:link,
+.wotgame-footer .wotgame-widget a:visited,
+.wotgame-footer .wotgame-widget a:hover
+{
+    text-align: left;
+}
+
+DIV[id^="GMPmap"] IMG 
+{
+    margin: 0px;
+}
+
+/* Begin Additional CSS Styles */
+
+/* End Additional CSS Styles */
+
